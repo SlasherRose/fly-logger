@@ -1,0 +1,28 @@
+{
+	"name": "fly-logging",
+	"version": "0.1.0",
+	"description": "A lightweight, no-dependencies, logging library.",
+	"type": "module",
+	"scripts": {
+		"prepublishOnly": "npm test || (echo 'Tests failed' && exit 1)",
+		"test": "node ./tst/logging.test.js && node ./tst/lifecycle.test.js && node ./tst/settings.test.js && node ./tst/blacklist.test.js && node ./tst/whitelist.test.js"
+	},
+	"exports": {
+		"main": "./src/common-js/index.cjs",
+		"require": "./src/common-js/index.cjs",
+		"module": "./src/module/index.js",
+		"import": "./src/module/index.js"
+	},
+	"author": "Asher Rosenbaum",
+	"license": "MIT",
+	"publishConfig": {
+		"access": "public"
+	},
+	"dependencies": {
+		"@slasherrose/check-up": "^1.2.0"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/SlasherRose/fly-logger/"
+	}
+}
