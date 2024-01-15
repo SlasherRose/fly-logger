@@ -1,4 +1,4 @@
-const Errors = require("./errors");
+const Errors = require("./errors.cjs");
 const instances = {};
 
 function FlyFactory(id, settings = {}) {

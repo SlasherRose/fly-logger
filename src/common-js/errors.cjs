@@ -20,7 +20,16 @@ const InvalidThresholdLevel = (id, level) =>
 		`level in fly '${id}' not found while setting threshold (${level})`
 	);
 
+const Errors = {
+	DuplicateLevelValuesFound,
+	IdAlreadyExists,
+	InvalidThresholdLevel,
+	NoIdGiven,
+	NoLevelsDefined,
+};
+
 module.exports = {
+	Errors,
 	NoIdGiven,
 	IdAlreadyExists,
 	NoLevelsDefined,
