@@ -15,6 +15,25 @@
 	},
 	"author": "Asher Rosenbaum",
 	"license": "MIT",
+	"keywords": [
+		"log",
+		"logging",
+		"logger",
+		"vanilla",
+		"debug",
+		"commonjs",
+		"color",
+		"ansi",
+		"tag",
+		"tagging",
+		"fly logging",
+		"flylogger",
+		"browser",
+		"terminal",
+		"console",
+		"cmd",
+		"no dependencies"
+	],
 	"publishConfig": {
 		"access": "public"
 	},
