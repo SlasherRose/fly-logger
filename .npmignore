@@ -1,0 +1,8 @@
+# Ignore node modules
+node_modules/
+
+# Ignore git files
+.git/
+
+# Ignore tst folder
+tst/
