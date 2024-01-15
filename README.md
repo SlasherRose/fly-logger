@@ -30,9 +30,9 @@ The core concept of Fly Logging revolves around the idea that logging should be 
 
 ## Method 1 (NPM)
 
-To install with npm, simply run the command 
+To install with npm, run the following command: 
 
-`npm i @slasherrose/fly-logging`
+`npm i fly-logging`
 
 ## Method 2 (Copy-Paste)
 
